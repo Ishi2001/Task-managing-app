@@ -2,13 +2,20 @@
 
 Welcome to the Task Tracker API. It is based on RESTful API using Java, PostgreSQL, and robust error handling.
 
+![Screenshot (426)](https://github.com/Ishi2001/Task-managing-app/assets/71957301/33f82a01-1f37-4161-a2c0-02eba5d59003)
+![Screenshot (428)](https://github.com/Ishi2001/Task-managing-app/assets/71957301/6b2ce18c-4ce0-41f4-9d79-c79a8be528d9)
+![Screenshot (434)](https://github.com/Ishi2001/Task-managing-app/assets/71957301/92c797bf-80d8-41a4-a998-cfe399cab2da)
+
 ## Programming Language used
-Java framework Spring Boot.
-And Database used is PostgreSQL.
+
+Java framework Spring Boot and for Database used is PostgreSQL.
+for frontend to display the task is thymeleaf.
 ## Configure PostgreSQL
 
    1) Create a database in your PostgreSQL instance.
    2) Update the application.properties file in the src/main/resources folder with the URL, username and password for your PostgreSQL instance. The table schema for the Task Traker  will be created for you in the database.
+      ![Screenshot (430)](https://github.com/Ishi2001/Task-managing-app/assets/71957301/847e2980-fb6e-4d12-bc7d-920145994c33)
+
 ## Build and run the sample
 
     1. mvnw package
@@ -41,3 +48,7 @@ https://github.com/Ishi2001/Task-managing-app
 - Task Tracker will assigne the due date of task
 - It contains the logging file (log.txt)
 - It also handle the error
+## log.txt
+![Screenshot (431)](https://github.com/Ishi2001/Task-managing-app/assets/71957301/0280542c-7327-4881-b454-965d6a6dcf88)
+![Screenshot (433)](https://github.com/Ishi2001/Task-managing-app/assets/71957301/19536c2a-1689-4711-aa63-2659e79f896b)
+
